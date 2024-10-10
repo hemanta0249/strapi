@@ -1,7 +1,7 @@
 export default ({ env }) => ({
     'users-permission': {
         config: {
-            jwtSecret: env('JWT_SECRET'),
+            jwtSecret: 'vR83aWeas05aQehW4E0Z+g==',
         },
     },
 });
