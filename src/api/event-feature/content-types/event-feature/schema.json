@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_features",
+  "info": {
+    "singularName": "event-feature",
+    "pluralName": "event-features",
+    "displayName": "Event Features Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "feature.features"
+    }
+  }
+}
